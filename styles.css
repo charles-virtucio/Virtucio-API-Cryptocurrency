@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+#container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  text-align: center;
+}
+
+#searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+#searchBox {
+  flex-grow: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #748a74;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #45a049;
+}
+
+#searchButton:focus {
+  outline: none;
+}
+
+#cryptoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cryptoList li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#loading {
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
+  color: #888;
+  display: none;
+}
+
+#endMessage {
+  display: none;
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
+  color: #888;
+}
